@@ -31,3 +31,24 @@ build/
 
 ### VS Code ###
 .vscode/
+
+#### ignore all .idea files ...
+*
+
+#### except
+
+# Version Control configuration for your project
+!vcs.xml
+
+# how IDEA should treat the text files in your project
+!encodings.xml
+
+# automatic code formatting
+!codeStyleSettings.xml
+
+# project specific words
+!dictionaries
+
+!copyrights
+!misc.xml
+!sqldialects.xml
